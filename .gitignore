@@ -1,6 +1,9 @@
 # DB
 .db
 
+# PWA
+sw.
+
 # Nuxt dev/build outputs
 .output
 .data
