@@ -5,8 +5,7 @@ import { NuxtPwaManifest } from '#components';
 <template>
   <div>
     <NuxtRouteAnnouncer />
-    <!-- <VitePwaManifest /> -->
     <NuxtPwaManifest />
-    <NuxtWelcome />
+    <NuxtPage />
   </div>
 </template>

@@ -10,6 +10,7 @@ export default defineNuxtConfig({
     '@nuxt/image',
     '@nuxt/test-utils',
     '@vite-pwa/nuxt',
+    'vuetify-nuxt-module',
   ],
   pwa: {
     manifest: {
@@ -62,6 +63,17 @@ export default defineNuxtConfig({
       enabled: true,
       type: 'module',
       suppressWarnings: true,
+    },
+  },
+  vuetify: {
+    moduleOptions: {
+      /* module specific options */
+    },
+    vuetifyOptions: {
+      /* vuetify options */
+      theme: {
+        defaultTheme: 'dark',
+      },
     },
   },
 });
